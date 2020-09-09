@@ -9,6 +9,10 @@
     "$schema": "https://aka.ms/terminal-profiles-schema",
 
     "launchMode":"maximized",
+    "largePasteWarning" : false,
+    "multiLinePasteWarning" : false,
+    "confirmCloseAllTabs" : false,
+    "theme" : "light", // "light" or "dark" or "system"
 
     //ubuntu
     "defaultProfile": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
@@ -23,7 +27,7 @@
     // To learn more about global settings, visit https://aka.ms/terminal-global-settings
 
     // If enabled, selections are automatically copied to your clipboard.
-    "copyOnSelect": true,
+    //"copyOnSelect": true,
 
     // If enabled, formatted data is also copied to your clipboard
     "copyFormatting": false,
@@ -50,23 +54,24 @@
             "padding": "0, 0, 0, 0",
             "cursorShape" : "filledBox",
             // "cursorTextColor": "#000000",
-            "colorScheme": "Michael"
+            "colorScheme": "Michael",
+            "scrollbarState": "visible"
         },
         "list":
         [
-            {
-                // Make changes here to the powershell.exe profile.
-                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-                "hidden": false,
-                "name": "Windows PowerShell",
-                "commandline": "powershell.exe"
-            },
             {
                 // Make changes here to the cmd.exe profile.
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "name": "Command Prompt",
                 "commandline": "cmd.exe"
+            },
+            {
+                // Make changes here to the powershell.exe profile.
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell",
+                "commandline": "powershell.exe"
             },
             {
                 // WSL Ubuntu
@@ -79,10 +84,28 @@
                 //"commandline": "bash.exe ~ -l"
             },
             {
+                // WSL Ubuntu20.04B B!!!!!
+                "guid": "{16e1c1a1-d49a-5457-85b6-1478d4e3cf60}",
+                "hidden": false,
+                "name": "ubuntu_b",
+                "source": "Windows.Terminal.Wsl",
+                // ~ to start at home, -i for interactive shell login
+                // -i does not load .profile, use -l for login shell to load .profile
+                "commandline": "wsl ~ -d ubuntu_b bash -l",
+                "suppressApplicationTitle" : true,
+                "tabTitle" : "Ubuntu B"
+            },
+            {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
                 "hidden": true,
                 "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{0f1670e2-1f50-5e10-9892-ed0aa2c8de77}",
+                "hidden": false,
+                "name": "ubuntu_b",
+                "source": "Windows.Terminal.Wsl"
             }
         ]
     },

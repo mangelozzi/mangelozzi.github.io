@@ -47,6 +47,12 @@ nvim can't see it (as its only available in bash). Just make a copy of the binar
 ## 4. FZF
 
 ```bash
-sudo apt-get install fzf
+sudo apt install fzf
+```
+
+## 5. Tree
+
+```bash
+sudo apt install tree
 ```
 
