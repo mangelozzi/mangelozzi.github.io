@@ -83,3 +83,60 @@ default=username
 - `wsl --unregister <DISTRO_HANDLE>`
 - e,g, `wsl --unregister ubuntu_b`
 
+## WSL2 SERVE UP CONTENT TO EXTERNAL NETWORK
+
+- By default WSL2 communicates only with windows processes on the same computer.
+- To be able to view Django from another host, e.g. phone, one must setup WSL2
+  to forward traffic from windows to WSL2 on the required port.
+- Note the WSL2 IP address changes from time to time.
+- Can refer to [this help script](https://gist.github.com/xmeng1/aae4b223e9ccc089911ee764928f5486)
+- Some blogs indicate that one can port forward to 127.0.0.1, but this does not
+  work when I tested, it have to be the WSL IP address, e.g. `172.31.191.138`
+
+### WSL2 Port forward
+
+#### Manual Setup
+
+1. Start Django running as IP address 0.0.0.0 (means listen on all ports).
+    ```
+        python manage.py runserver 0.0.0.0:8000
+    ```
+2. Ensure Django settings ALLOWED hosts, contains `*` or `0.0.0.0`.
+3. Get the WSL2 IP4 Address
+    1. In Ubuntu I run:
+       ```
+          sudo apt install net-tools
+       ```
+    2. Then get the IP4 address with:
+       ```
+          ifconfig eth0
+       ```
+    3. Ensure to get the first IP4 address, NOT the second broadcase one
+        which ends in `.255`.
+4. Setup up windows to forward traffic to WSL2 IP4 Address, e.g. for IP address `172.31.191.138`
+    ```
+        netsh interface portproxy add v4tov4 listenport=8000 listenaddress=0.0.0.0 connectport=8000 connectaddress=172.31.191.138
+    ```
+5. Check the rule was successfully created:
+    ```
+        netsh interface portproxy show v4tov4
+    ```
+6. One can delete all port forwarding proxy rules with:
+    ```
+        netsh interface portproxy reset
+    ```
+7. Then create INBOUND and OUTBOUND firewall rules for the required ports:
+    1. `WIN+R` and run `WF.msc`
+    2. Top left `Inbound Rules` right click on it and select `New Rule...`
+    2. Top left `Outbound Rules` right click on it and select `New Rule...`
+
+8. Restart Computer (check WSL port hasn't changed)
+
+#### Script Setup
+
+Alternatively one can run a script which performs the above:
+1. Ensure one has installed `net-tool` as above so `ifconfig` commands works.
+2. Run the script (right click and select run):
+    ```
+        mangelozzi.github.io\software_setup\windows\scripts\WSL Port Forward.ps1
+    ```

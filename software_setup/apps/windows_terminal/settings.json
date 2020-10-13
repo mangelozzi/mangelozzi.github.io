@@ -13,6 +13,7 @@
     "multiLinePasteWarning" : false,
     "confirmCloseAllTabs" : false,
     "theme" : "light", // "light" or "dark" or "system"
+    "useTabSwitcher": false,
 
     //ubuntu
     "defaultProfile": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
@@ -42,7 +43,7 @@
         {
             // Put settings here that you want to apply to all profiles.
             //"startingDirectory":"\\\\wsl$\\Ubuntu-20.04\\home\\michael",
-            "fontSize": 12,
+            "fontSize": 11,
             //"antialiasingMode": "aliased",
             "fontWeight" : "medium",
             //"fontFace": "Consolas",

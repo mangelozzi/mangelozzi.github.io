@@ -1,5 +1,10 @@
 # Windows Settings
 
+## Scroll Bars
+
+Search from start menu for `Automatically hide scroll bars in Windows` and disable
+that retarded idea.
+
 ## win+I Settings
 
 - Go through each menu and hunt down and disable all the new annoying "features".
