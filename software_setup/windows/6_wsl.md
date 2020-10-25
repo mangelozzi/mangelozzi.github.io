@@ -95,6 +95,14 @@ default=username
 
 ### WSL2 Port forward
 
+CAVEAT! Upon reboot the WSL port changes, and hence one will loose internet
+connectivity. So one has to setup the port forward again. The start dev script
+runs the below script every time. One can reset the port forward to return
+normal behaviour (losing outside WSL access) with:
+```
+netsh interface portproxy reset
+```
+
 #### Manual Setup
 
 1. Start Django running as IP address 0.0.0.0 (means listen on all ports).

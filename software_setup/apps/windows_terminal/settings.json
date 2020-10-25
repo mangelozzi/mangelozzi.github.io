@@ -121,7 +121,7 @@
             //"cursorTextColor": "#000000",
             //"cursorColor": "#ff0088",
             "cursorColor": "#fFFFFF",
-            "selectionBackground": "#888888",
+            "selectionBackground": "#880088",
 
             // FG BG
             "background":   "#000000",  //    49

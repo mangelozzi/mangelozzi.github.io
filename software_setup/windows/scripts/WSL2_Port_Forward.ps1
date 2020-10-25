@@ -1,3 +1,5 @@
+#Refer to https://github.com/microsoft/WSL/issues/4150#issuecomment-504209723
+
 echo "Check have admin rights..."
 If (-NOT ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator"))
 {
