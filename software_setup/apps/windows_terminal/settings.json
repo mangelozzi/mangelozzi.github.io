@@ -119,7 +119,7 @@
 
             //"cursorColor": "textBackground",
             //"cursorTextColor": "#000000",
-            //"cursorColor": "#ff0088",
+            "cursorColor": "#ff0088",
             "cursorColor": "#fFFFFF",
             "selectionBackground": "#880088",
 

@@ -2,34 +2,78 @@
 
 Quantities per pizza (approx, still fine tuning):
 
-- 100ml
-- 100g of flour, then add about another 30g later
-- 5g salt
-- 1.25g yeast
-- 1.25g honey
-- 5g olive oil
+## Ball weight per Pizza
 
-## Step 1 - Prep the bases (night before)
+- `250g` per ball, for 30cm pizza (`230g` is a bit too small).
 
-- The following makes 8 pizza bases.
-- 8 balls, about 230grams per ball, for 12" pizza.
+## Poolish Style
+
+https://www.youtube.com/watch?v=G-jPoROGHGE&t=862s
+
+1. Step 1 Combine
+    | Ingredient     | Unit | 10x  |
+    |----------------|------|------|
+    | 1. Cold water  | ml   | 300  |
+    | 2. Dry Yeast   | g    | 5    |
+    | 3. Honey       | g    | 5    |
+    | 4. Flour       | g    | 300  |
+2. Leave at room temperature for 1 hour
+3. Place in fridge for 1 day
+4. 
+    | Ingredient     | Unit | 10x  |
+    |----------------|------|------|
+    | 1. Poolish     | ml   | all  |
+    | 2. Cold water  | ml   | 700  |
+    | 4. Flour       | g    | 612  |
+    | 3. Salt        | g    | 40   |
+    | 4. More flour  | g    | 612  |
+
+
+| Ingredient                         | Unit | 1x    | 10x  | 16x  |
+|------------------------------------|------|-------|------|------|
+| Flour (add)                        | g    | 33    | 375  | 750  |
+| Salt                               | g    | 5     | 40   | 80   |
+| Honey                              | g    | 1.25  | 10   | 20   |
+| Olive Oil                          | g    | 6.25  | 50   | 100  |
+
+## Ingredients (Standard style)
+
+| Ingredient                         | Unit | 1x    | 10x  | 16x  |
+|------------------------------------|------|-------|------|------|
+| Cold water                         | ml   | 100   | 750  | 1500 |
+| Flour (initial)                    | g    | 100   | 750  | 1500 |
+| Flour (add)                        | g    | 33    | 375  | 750  |
+| Salt                               | g    | 5     | 40   | 80   |
+| Yeast (half instant, half italian) | g    | 1.25  | 10   | 20   |
+| Honey                              | g    | 1.25  | 10   | 20   |
+| Olive Oil                          | g    | 6.25  | 50   | 100  |
+
+## Ingredients (New york / Home oven style)
+
+| Ingredient                         | Unit | 1x    | 10x  | 20x  |
+| Flour (initial)                    | g    | 125   | 1000 | 2000 |
+| Flour (add)                        | g    | 62.5  | 500  | 1000 |
+| Cold water                         | ml   | 106.3 | 850  | 1700 |
+| Salt                               | g    | 3.9   | 30   | 60   |
+| Yeast                              | g    | 0.4   | 3    | 6    |
+| Oil                                | g    | 4.4   | 35   | 70   |
+| Honey                              | g    | 1.9   | 15   | 30   |
 
 ### Step 1.1 - Prep Wet Ingredients
 
 Start with the wet ingredients so has 5 mins headstart.
 In a measuring jug on scale add:
 
-1. 750ml water, microwave for 1min
-2. 10g yeast (e.g. 5g instant, 5g Italian)
-3. 10g honey
-4. Leave for 5mins
+- Cold Water
+- Salt (stir until completely disolved)
+- Honey
+- 10% of flour (buffer to protect the yeast from salt)
+- Yeast
 
 ### Step 1.2 - Prep Dry Ingredients
 
 In mixing bowl on scale:
 
-1. 750g brown flour
-2. 40g salt
 
 ### Step 1.3 - Autolyse ("auto-lease", french)
 
@@ -56,7 +100,7 @@ In mixing bowl on scale:
 
 ### Step 1.5 Bag
 
-1. Divide into 8 x balls of about 230grams each.
+1. Divide into Balls
 2. Stuff them in on themselves, to form tight outside edge, and roll into balls.
 3. Coat with olive oil and place in sandwich bag with a peg on it.
 4. Freeze the rest.
@@ -134,3 +178,29 @@ Note: Fillus put down your rolling pin! They squash all the air out of the base.
 8. Have another slice!
 9. Thank you fellow human being for engaging in this pizza assembling and
    consumption task.
+
+
+## Fresh Yeast Recipe (from dry yeast)
+
+https://www.youtube.com/watch?v=f0LsLMS5DYM
+
+- 30g Room temperature water
+- 5g Dry Yeast
+- 60g 00 flour
+
+1. Add water in clean cup
+2. Add dry yeast
+3. Dissolve yeast with silicon spatula
+4. Add the flour, mix with spatula
+5. Place on really clean cuttying board
+6. Knead for 10 mins, ready when you pull it and its breaks
+7. Form into a ball
+8. Press it down into an air tight container, with no air, wrap in cling wrap, 
+   then within an air type container.
+9. Place in fridge immediately.
+
+- Is good to use 1 day later
+- Is good to freeze 3 days later (then use within 3/4months)
+- Is good to use up to 7 days later
+- Ensure keep everything clean, and container is air tight.
+

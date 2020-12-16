@@ -77,3 +77,10 @@ In explorer nav to `Control Panel\Hardware and Sound`
 3. Right click `Windows` add key `Personalization`
 4. Add New `DWORD (32-bit) Value` named `NoLockScreen` with value `1`
 
+## Disable `Zone.Identifier` for downloaded files
+
+1. Hold down the Windows key and press R to bring up the Run dialog.
+2. `Win+R` and enter `gpedit.msc`
+3. Navigate to `User Configuration` -> `Administrative Templates` -> `Windows Components` -> `Attachment Manager`.
+4. In the right side pane, double-click `Do not preserve zone information in file attachments`
+5. Set to `Enabled` then press OK.
