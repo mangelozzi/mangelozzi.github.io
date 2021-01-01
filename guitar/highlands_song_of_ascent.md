@@ -134,7 +134,7 @@ You're just not that hard to find
     To where You sweep the sinner's past
 
 
-### Verse 4 (D-UDD-UDDU)
+### Verse 4 (D-UDD-UDDDU)
 
         Em7                     Dsus
     O how fast would You come running

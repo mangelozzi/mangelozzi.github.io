@@ -1,4 +1,5 @@
-# Braai
+# Braai Tips
+By Graham Kiggan
 
 ## Chicken
 
@@ -9,4 +10,6 @@
 
 Break test.
 
+## Lamb Chops
 
+- 5mins turns then 5 mins

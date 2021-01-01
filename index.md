@@ -7,6 +7,8 @@
 
 - [Pizza recipe](cooking/pizza.md)
 - [Braai'ing](cooking/braai.md)
+- [Apple Crumble](cooking/apple_crumble.md)
+- [Lamb Roast Stew](cooking/lamb_roast_stew.md)
 
 # Guitar
 
