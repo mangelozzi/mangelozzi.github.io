@@ -5,14 +5,14 @@
 - 1 apple
 - 1/2 cup oats
 - 62g Coconut oil (should be enough to wet the oats)
-- tspn honey
-- 0.25tspn Cinnamon
+- 1 tspn honey
+- 0.25 tspn Cinnamon
 
 Optional:
 - Cranberries
 - Raisins
 - Nectarines
-- Blue berries
+- Blueberries
 
 ## Method
 

@@ -11,6 +11,7 @@ Quantities per pizza (approx, still fine tuning):
 https://www.youtube.com/watch?v=G-jPoROGHGE&t=862s
 
 1. Step 1 Combine
+
     | Ingredient     | Unit | 10x  |
     |----------------|------|------|
     | 1. Cold water  | ml   | 300  |
