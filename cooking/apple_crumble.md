@@ -1,18 +1,19 @@
 # Apple Crumble
+By Denise Kiggan
 
 ## Ingredients per person:
 
 - 1 apple
 - 1/2 cup oats
 - 62g Coconut oil (should be enough to wet the oats)
-- 1 tspn honey
-- 0.25 tspn Cinnamon
+- tspn honey
+- 0.25tspn Cinnamon
 
 Optional:
 - Cranberries
 - Raisins
 - Nectarines
-- Blueberries
+- Blue berries
 
 ## Method
 

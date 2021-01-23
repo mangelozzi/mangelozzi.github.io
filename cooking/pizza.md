@@ -8,7 +8,7 @@ Quantities per pizza (approx, still fine tuning):
 
 ## Poolish Style
 
-https://www.youtube.com/watch?v=G-jPoROGHGE&t=862s
+<https://www.youtube.com/watch?v=G-jPoROGHGE&t=862s>
 
 1. Step 1 Combine
 

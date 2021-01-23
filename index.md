@@ -10,6 +10,12 @@
 - [Apple crumble](cooking/apple_crumble.md)
 - [Lamb roast stew](cooking/lamb_roast_stew.md)
 - [Chia seed delight](cooking/chia_seed_delight.md)
+- [Drinks](cooking/drinks.md)
+
+## Misc
+
+- [Home Remedies](misc/home_remedies.md)
+- [Medical](misc/medical.md)
 
 ## Guitar
 
@@ -18,3 +24,4 @@
 ## Exercise
 
 - [10min Stretching](exercise/10min_stretch.md)
+
