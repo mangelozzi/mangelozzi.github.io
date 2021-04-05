@@ -84,3 +84,10 @@ In explorer nav to `Control Panel\Hardware and Sound`
 3. Navigate to `User Configuration` -> `Administrative Templates` -> `Windows Components` -> `Attachment Manager`.
 4. In the right side pane, double-click `Do not preserve zone information in file attachments`
 5. Set to `Enabled` then press OK.
+
+## Disable Web Result from Taskbar Search
+
+1. Open `regedit`.
+2. Nav to `Computer\HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer`.
+3. Add new `DWORD` entry `DisableSearchBoxSuggestions` set to `1`.
+4. Restart or Log out.

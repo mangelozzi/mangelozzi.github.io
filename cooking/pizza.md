@@ -2,9 +2,12 @@
 
 Quantities per pizza (approx, still fine tuning):
 
-## Ball weight per Pizza
+## Notes
 
-- `250g` per ball, for 30cm pizza (`230g` is a bit too small).
+- Woolies Mozzarella 400g does about 3 pizzas
+- Can of tomatoes does about 3 pizzas
+- `250g` per ball, for 30cm pizza (`230g` is a bit too small). (unfermented 250g too small)
+- Can leave to ferment for a week (for best taste)
 
 ## Poolish Style
 
