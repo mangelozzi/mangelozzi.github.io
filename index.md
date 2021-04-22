@@ -1,18 +1,14 @@
-## Software
+# mangelozzi.github.io
+
+## SOFTWARE
 
 - [Dot config files](https://github.com/mangelozzi/.config/blob/master/README.md)
-- [Software setup](software_setup/software_setup.md)
-
-## Cooking
-
-- [Pizza recipe](cooking/pizza.md)
-- [Braai'ing](cooking/braai.md)
-- [Apple crumble](cooking/apple_crumble.md)
-- [Lamb roast stew](cooking/lamb_roast_stew.md)
-- [Chia seed delight](cooking/chia_seed_delight.md)
-- [Drinks](cooking/drinks.md)
+- [Apps](apps/index.md)
+- [OS](os/index.md)
 
 ## Misc
+
+- [Cooking](cooking/index.md)
 
 - [Home Remedies](misc/home_remedies.md)
 - [Medical](misc/medical.md)
