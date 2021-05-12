@@ -76,7 +76,7 @@ scoop install inkscape            (add to start menu)
 scoop install libreoffice-stable
 scoop install mp3tag
 scoop install putty
-scoop install screentogif
+scoop install screentogif         (useful for showing bugs)
 scoop install speedcrunch         (add to start menu)
 scoop install sumatrapdf          (not good cause runs in portable mode and cant be used a default pdf viewer)
 scoop install vlc
