@@ -1,5 +1,66 @@
 # FreeCAD
 
+## Edit -> Preferences 
+
+- GENERAL
+    - General
+        - Size of Toolbar Icons = Small (16px)
+    - Document
+        - Using Undo/Redo = Checked
+        - Maximum Undo/Redo Steps = 99
+        - Allow aborting recomputation = Checked
+        - Set Authoring and License Information
+    - Selection
+        - Preselect the object in the 3D view when mouse over the tree item
+    - Units
+        - Number of decimals = 2
+- DISPLAY
+    - 3D View
+        - Show the coordinate system in the corner = Checked
+        - Show axis cross by default = Checked
+        - Remember acitve workbench by tab = Checked
+        - Marker size = 15px
+        - Pick radius = 20px
+    - Navigation Cube
+        - Steps by turn = 24 (so can set isometric rotations)
+        - Invert Zoom = Checked
+    - Colors
+        - Background Color
+            - Simple color = #bab4ae
+- IMPORT-EXPORT
+    - DXF
+        - Use legacy python exporter = Checked
+        - Project exported objects along current view direction
+- PART DESIGN
+    - Shape appearance
+        - Line width = 4px
+        - Vertex side = 7px
+- TECHDRAW
+    - General
+        - Default Template = C:/work/freecad_support/templates/a4_landscape_nanocube_template.svg
+        - Template Directory = C:/work/freecad_support/templates
+    - Scale
+        - Size Adjustments
+            - Vertex scale = 3
+    - Dimensions
+        - Standard and Style = ISO Orientated
+    - Annotations
+        - Balloon Shape = None
+    - Advanced
+        - Dimension Format = %.g
+
+## TOOLS -> CUSTOMISATION
+
+- WORKBENCHES
+    - Removed retarded ones
+- KEYBOARD
+    - Category - Sketcher
+        - `SHIFT + r` for `Constrain radius`
+        - `SHIFT + d` for `Constrain diameter`
+        - `o` for circle
+        - `w` for polyline
+        - `p` for point
+
 ## PART DESIGN VS PART WORKBENCH
 
 - If you make a part in ANY workbench outside of `part design`, and then try to edit it in `part design`, it will create a duplicate. If you can make a change in part design, do it in part design, because then you can still updated your model.
@@ -7,9 +68,6 @@
 
 ## PART DESIGN
 
-### Hotkeys
-
-- `SHIFT + r` for for radius dimension
 - To colour it, right click on the `body` in the tree browser, and select `Appearance...`, don't choose a material (leave it on `default`), the shiny'ness makes it hard to see. This sets all faces, choose the most common color for the faces. Then right click on the tree tip node, and select `Set colors...` (2nd from top). Note there is a box select feature, handy for say a header.
     - WARNING: The colors only applies to one step, once you add any other steps, the coloring does not pull forward.
 
