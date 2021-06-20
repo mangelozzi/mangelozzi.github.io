@@ -32,6 +32,14 @@
 ## TECHDRAW
 
 - To change the template, in the model tree select the `page`, then the `template` sub item, in the `Property/View`.
+- To add a 3D dimension:
+    1. First add the dimension, it will show the projected (incorrect value).
+    2. Goto the 3D view, and select an edge.
+    3. Then `CTRL` click the page you would like to apply it to (don't have to if only one page).
+    4. Then click `Link Dimension`
+    5. Select the dimension from the list in the dialogue.
+- If you get the error `can not determine correct page`, select the item in the tree view, then `CTRL` click the page,
+then click TechDraw `Insert a view`. Or tab to the page.
 
 ## TOPOLOGICAL NAMING ERRORS
 
@@ -41,3 +49,6 @@
 # EXPORT
 
 - Ensure the drawings is parallel with the view port. Can use the manipulator align to surface.
+- `Preferences` -> `Import/Export` ->  `DXF` tab
+    - Check `project exported objects along current view`
+    - If export fails try `use legacy python exporter`
