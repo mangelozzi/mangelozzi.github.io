@@ -110,3 +110,9 @@ then click TechDraw `Insert a view`. Or tab to the page.
 - `Preferences` -> `Import/Export` ->  `DXF` tab
     - Check `project exported objects along current view`
     - If export fails try `use legacy python exporter`
+
+## RENDER
+
+- LuxCoreRender, the CLI .exe is called `luxcoreui.exe`
+- Refer to: <https://github.com/FreeCAD/FreeCAD-render>
+

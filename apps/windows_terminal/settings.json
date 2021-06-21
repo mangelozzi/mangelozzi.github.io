@@ -3,10 +3,11 @@
     "confirmCloseAllTabs": false,
     "copyFormatting": "none",
     "defaultProfile": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+    "experimental.rendering.software": true,
     // Add custom keybindings to this array.
     // To unbind a key combination from your defaults.json, set the command to "unbound".
     // To learn more about keybindings, visit https://aka.ms/terminal-keybindings
-    "keybindings":
+    "keybindings": 
     [
         // Copy and paste are bound to Ctrl+Shift+C and Ctrl+Shift+V in your defaults.json.
         // These two lines additionally bind them to Ctrl+C and Ctrl+V.
@@ -39,7 +40,7 @@
         // - "splitMode": "duplicate" makes the new pane use the focused pane's profile.
         // To learn more about panes, visit https://aka.ms/terminal-panes
         {
-            "command":
+            "command": 
             {
                 "action": "splitPane",
                 "split": "auto",
@@ -51,9 +52,9 @@
     "largePasteWarning": false,
     "launchMode": "maximized",
     "multiLinePasteWarning": false,
-    "profiles":
+    "profiles": 
     {
-        "defaults":
+        "defaults": 
         {
             "colorScheme": "Michael",
             "cursorShape": "filledBox",
@@ -63,7 +64,7 @@
             "padding": "0, 0, 0, 0",
             "scrollbarState": "visible"
         },
-        "list":
+        "list": 
         [
             {
                 "commandline": "cmd.exe",
@@ -81,7 +82,8 @@
                 "commandline": "wsl ~ bash -l",
                 "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
                 "hidden": false,
-                "name": "Ubuntu-20.04"
+                "name": "Ubuntu-20.04",
+                "source": "Windows.Terminal.Wsl"
             },
             {
                 "guid": "{0f1670e2-1f50-5e10-9892-ed0aa2c8de77}",
@@ -97,7 +99,7 @@
             }
         ]
     },
-    "schemes":
+    "schemes": 
     [
         {
             "background": "#0C0C0C",
