@@ -86,6 +86,10 @@
 - Don't have to burrow into menus to see `alias`, it is available top right.
 - Can select multiple cells, right click, `properties`, `display units` tab, and can set to `mm`
 - To reference a value in a dimensions, type `=` or click lil white/blue icon. Enter `spreadsheet_name.alias`, e.g. `ss.box_w`
+- If try to place circles or shapes close to the bend line, if it fails, ensure there is a straight portion perpindicular to the bend line, e.g.:
+    - bend line-> `| |)` is no good
+    - bend line-> `| [)` is OK, has straight lines before the arc
+    - bend line-> `| o` is OK
 
 ## TECHDRAW
 
@@ -106,7 +110,8 @@ then click TechDraw `Insert a view`. Or tab to the page.
 
 # EXPORT
 
-- Ensure the drawings is parallel with the view port. Can use the manipulator align to surface.
+- Ensure the drawings is parallel with the view port.
+    - Can use the Manipulator -> `Mover Tools` -> `Align view to the selected view` (looks like a speedgun pointing at a cube)
 - `Preferences` -> `Import/Export` ->  `DXF` tab
     - Check `project exported objects along current view`
     - If export fails try `use legacy python exporter`
