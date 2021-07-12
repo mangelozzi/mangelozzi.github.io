@@ -332,6 +332,7 @@
             "yellow": "#808000"
         }
     ],
+    "startOnUserLogin": false,
     "tabSwitcherMode": "disabled",
-    "theme": "light"
+    "theme": "dark"
 }
