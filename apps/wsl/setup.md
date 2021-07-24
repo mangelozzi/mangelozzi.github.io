@@ -97,3 +97,8 @@ netsh interface portproxy reset
 Alternatively one can run a script which performs the above:
 1. Ensure one has installed `net-tool` as above so `ifconfig` commands works.
 2. Run the script (right click and select run): [WSL Port Forward Script](WSL2_Port_Forward.ps1)
+
+
+## Not systemd (required for snapd)
+
+- Install this: https://github.com/DamionGans/ubuntu-wsl2-systemd-script
