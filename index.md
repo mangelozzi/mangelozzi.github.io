@@ -1,5 +1,10 @@
 # mangelozzi.github.io
 
+## CODE
+
+- [Code](code/index.md)
+- [JavaScript](code/javascript/index.md)
+
 ## SOFTWARE
 
 - [Dot config files](https://github.com/mangelozzi/.config/blob/master/README.md)
@@ -9,7 +14,6 @@
 ## Misc
 
 - [Cooking](cooking/index.md)
-
 - [Home Remedies](misc/home_remedies.md)
 - [Medical](misc/medical.md)
 
