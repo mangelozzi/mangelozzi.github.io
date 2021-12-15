@@ -121,3 +121,7 @@ then click TechDraw `Insert a view`. Or tab to the page.
 - LuxCoreRender, the CLI .exe is called `luxcoreui.exe`
 - Refer to: <https://github.com/FreeCAD/FreeCAD-render>
 
+
+## SHEET METAL WORKBENCH
+
+![Sheet metal terms](./sheetmetal_terms.png)
