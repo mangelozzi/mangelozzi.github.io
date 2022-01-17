@@ -14,6 +14,14 @@
 sudo apt update
 ```
 
+##2. Speedcrunch
+
+```bash
+sudo apt install -y speedcrunch
+```
+
+## These are install by config scripts:
+
 ## 2. Ripgrep
 
 For searching within files
