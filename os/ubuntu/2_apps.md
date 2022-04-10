@@ -8,21 +8,27 @@
 
 - [Setup bash RC file](https://github.com/michael-angelozzi/.config/tree/master/bash)
 
-## 1. Update Package Repo
+## Update Package Repo
 
 ```bash
 sudo apt update
 ```
 
-##2. Speedcrunch
+## Speedcrunch
 
 ```bash
 sudo apt install -y speedcrunch
 ```
 
+## QDirStat
+
+```bash
+`sudo apt install -y qdirstat`
+```
+
 ## These are install by config scripts:
 
-## 2. Ripgrep
+## Ripgrep
 
 For searching within files
 
@@ -31,7 +37,7 @@ curl -LO https://github.com/BurntSushi/ripgrep/releases/download/11.0.2/ripgrep_
 sudo dpkg -i ripgrep_11.0.2_amd64.deb
 ```
 
-## 3. Fd
+## Fd
 
 For searching file names
 
@@ -43,15 +49,14 @@ Unfortunately the name `fd` is already taken, if one makes an alias (`alias fd=f
 nvim can't see it (as its only available in bash). Just make a copy of the binary with:
   `sudo cp /bin/fdfind /bin/fd`
 
-## 4. FZF
+## FZF
 
 ```bash
 sudo apt install fzf
 ```
 
-## 5. Tree
+## Tree
 
 ```bash
 sudo apt install tree
 ```
-

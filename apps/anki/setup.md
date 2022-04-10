@@ -1,7 +1,9 @@
 # Anki Setup
 
 1. Open Anki and go to `Decks` and clicks the `Sync` button.
-2. Paste in email address for in `AnkiWeb ID`, and the password you can figure out.
+2. Enter in account details:
+    - `AnkiWeb ID` = email address.
+    - `Password` = You can figure out.
 
 ## EXTENSIONS
 
