@@ -14,15 +14,17 @@ placed here.
 - [Git Setup](git/setup.md)
 - [Greenshot Setup](greenshot/setup.md)
 - [Inkscape Setup](inkscape/setup.md)
+- [KiCAD Setup](kicad/setup.md)
+- [KiCAD Tips](kicad/tips.md)
 - [Nerd-Fonts Patcher Tips](nerd-fonts_patcher/tips.md)
 - [Node.js Setup](nodejs/setup.md)
 - [Python](python/setup.md)
 - [Scoop Setup](scoop/setup.md)
 - [Scoop Tips](scoop/tips.md)
 - [SpeedCrunch](speedcrunch/setup.md)
-- [Windows Terminal Setup](windows_terminal/setup.md)
 - [WSL Setup](wsl/setup.md)
 - [WSL Tips](wsl/tips.md)
+- [Windows Terminal Setup](windows_terminal/setup.md)
 
 ## Config (dot files)
 
