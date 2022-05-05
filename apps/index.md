@@ -10,6 +10,7 @@ placed here.
 - [Blender Tips](blender/tips.md)
 - [Chrome Setup](chrome/setup.md)
 - [Dropbox Setup](dropbox/setup.md)
+- [FreeCAD Setup](freecad/setup.md)
 - [FreeCAD Tips](freecad/tips.md)
 - [Git Setup](git/setup.md)
 - [Greenshot Setup](greenshot/setup.md)
