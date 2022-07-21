@@ -7,6 +7,10 @@
     - `fastenters`
     - `sheetmetal`
     - `render`
+3. Download `Standalone release v2.6` NOT the blender plug in at the top from from <https://luxcorerender.org/download/>
+    1. Extract the file to say `/home/michael/tools/luxcorerender-v2.6-linux64/LuxCore`
+    2. Open `Edit` -> `Preferences` -> `Render` -> `LuxCore` Section
+    3. Set `LuxCore UI path` = `/home/michael/tools/luxcorerender-v2.6-linux64/LuxCore/luxcoreui`
 
 ## EDIT -> PREFERENCES
 
