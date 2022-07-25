@@ -4,9 +4,10 @@
 
 1. `Tools` -> `Addon Manager`
 2. Under `Show Addons containing:` select `Workbenches`, install:
-    - `fastenters`
-    - `sheetmetal`
-    - `render`
+    - `Fastenters`  - Add bolts/nuts/washers etc.
+    - `SheetMetal`  - For bending sheet metal
+    - `Manipulator`  - Various helper tools
+    - `Render`  - Photo realistic rendering (required `LuxCodeRenderer`, see below)
 2. Under `Show Addons containing:` select `Macros`, install:
     - `TreeToAcsii` (for creating fasteners BOM), click yes to add a tool bar when prompted
 3. Download `Standalone release v2.6` NOT the blender plug in at the top from from <https://luxcorerender.org/download/>
