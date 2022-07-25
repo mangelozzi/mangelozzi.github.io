@@ -56,6 +56,8 @@
     - General
         - Default Template = `/home/michael/freecad_support/templates/a4_landscape_nanocube_template.svg`
         - Template Directory = `/home/michael/freecad_support/templates`
+        - `Conventions` Section
+            - `Hidden Line Style` = `Dashed` (Note have to enabled hard lines)
     - Scale
         - Size Adjustments
             - Vertex scale = 3

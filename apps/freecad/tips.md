@@ -32,6 +32,7 @@
 
 ## TECHDRAW
 
+- To show hidden lines set `Hard Hidden` to `True`, which means show hard edges.
 - To change the template, in the model tree select the `page`, then the `template` sub item, in the `Property/View`.
 - To add a 3D dimension:
     1. First add the dimension, it will show the projected (incorrect value).
