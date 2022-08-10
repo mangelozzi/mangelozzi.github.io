@@ -58,7 +58,9 @@ then click TechDraw `Insert a view`. Or tab to the page.
 
 ## RENDER
 
+- Ensure `View` -> `Perspective view` is on before rendering, or else will use last view
 - LuxCoreRender, the CLI .exe is called `luxcoreui.exe`
+- Set `Ground Plane` to True and set a color.
 - Refer to: <https://github.com/FreeCAD/FreeCAD-render>
 
 
