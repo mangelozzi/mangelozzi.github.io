@@ -20,6 +20,7 @@
 ## Guitar
 
 - [Highlands (Song of Ascent)](guitar/highlands_song_of_ascent.md)
+- [Come Thou Fount (Celtic Worship)](guitar/come_thou_fount.md)
 
 ## Exercise
 
