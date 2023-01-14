@@ -17,6 +17,11 @@ sudo apt install -y git curl
 3. `eval $(ssh-agent)`
 4. `ssh-add ~/.ssh/github_dev`
 
+## GET ALL SSH (includes above `github_dev`)
+
+1. Copy from dir Cryptomator -> `NanoCube_Secure` -> `LinkCube` -> `SSH` -> `michael.home.ssh`
+2. to `~/.ssh`
+
 ## INSTALL DOT FILES
 
 - From `https://github.com/mangelozzi/dotfiles`:
