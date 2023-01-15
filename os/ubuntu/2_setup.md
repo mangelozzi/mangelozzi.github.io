@@ -37,3 +37,8 @@ curl https://raw.githubusercontent.com/mangelozzi/dotfiles/master/.config/instal
 ## Config - Run installer scripts
 
 - `bash ~/.config/install/_all.sh`
+
+## WORK APPS
+
+- `Insync`
+    - Install `Insync` for Google Drive
