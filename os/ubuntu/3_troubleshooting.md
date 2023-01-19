@@ -21,3 +21,11 @@
     </defaults>
 
 - <https://en.linuxportal.info/tutorials/troubleshooting/how-to-clear-the-not-authorized-to-perform-operation-error-message-when-automatically-attaching-USB-flash-drives-and-other-external-USB-storage-devices>
+
+## Change Default OS in Multi Boot systems
+
+- <https://www.techmesto.com/set-windows-as-default-in-linux-dual-boot/>
+1. Turn on your PC and take a look at the GRUB screen. Note the position Windows loader is at (0-INDEXED COUNTING!) and then proceed with booting up with your Linux install.
+2. `sudo nvim /etc/default/grub`
+3. Set `GRUB_DEFAULT=2` to the required number, e.g. if it is say the third position (0-indexed)
+4. `sudo update-grub`
