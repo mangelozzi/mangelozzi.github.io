@@ -5,6 +5,7 @@
 - Install Dropbox so can install Cryptomator
 - Download `.deb` file here: <https://www.dropbox.com/install>
 - Right click on file and say open with software center, or `sudo dpkg -i file.deb`
+- Can set Dropbox to selective sync the vault first if in a rush, then sync the other files later.
 
 ## CRYPTOMATOR FILES
 
@@ -19,13 +20,14 @@
 ## SSH
 
 1. Copy files from from:
-    - SRC: Cryptomator -> `Mighty_Secure` -> `Michael` -> `linux_setup` -> `ssh`
-    - OUT: `~/.ssh/`
-2. `sudo chown -R $USER:$USER ~/.ssh`
-3. `sudo chmod -R 700 ~/.ssh`
-4. `eval $(ssh-agent)`
-5. `ssh-add ~/.ssh/github_dev`
-
+```
+cp ~/.local/share/Cryptomator/mnt/Mighty_Secure/Michael/linux_setup/ssh/github_dev ~/.ssh/github_dev
+cp ~/.local/share/Cryptomator/mnt/Mighty_Secure/Michael/linux_setup/ssh/config ~/.ssh/config
+sudo chown -R $USER:$USER ~/.ssh
+sudo chmod -R 700 ~/.ssh
+eval $(ssh-agent)
+ssh-add ~/.ssh/github_dev
+```
 
 ## BASE APPS
 

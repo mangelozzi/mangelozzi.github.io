@@ -31,8 +31,9 @@
 4. Save and exit
 5. Press `F12` to enter boot menu selection, and select USB disk
 
-## INSTALLATION
+## PARTITIONS
 
+1. Select `Something else`
 1. Can delete all partitions, if required.
 2. Create a `GPT` type UEFI partition (`100MB` min, `550MB` if dual boot system).
-
+3. Swap space 2x RAM size (if plan to use hibernation)

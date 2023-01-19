@@ -1,10 +1,11 @@
 # WORK
 
-## WORK APPS
+## APPS - Insync
 
-- `Insync`
-    - Install `Insync` for Google Drive
-    - Download from: <https://www.insynchq.com/downloads/linux>
+1. Install `Insync` for Google Drive
+2. Download from: <https://www.insynchq.com/downloads/linux>
+3. Open in folder, right click and select `Open with other application` -> `Software install`
+4. Open `Chrome` and sign into work account, and keep that tab open, then start `Insync`
 
 ## CRYPTOMATOR
 
@@ -14,8 +15,10 @@
 
 ## SUDOERS
 
+- Copy then move, i.e. 2 steps, or else get permission error
 ```
-cp ~/.local/share/Cryptomator/mnt/NanoCube_Secure/terminal/terminal_sudoers /etc/sudoers.d/terminal_sudoers
+cp ~/.local/share/Cryptomator/mnt/NanoCube_Secure/terminal/terminal_sudoers ~/terminal_sudoers
+sudo mv ~/terminal_sudoers etc/sudoers.d/terminal_sudoers
 sudo chown root:root /etc/sudoers.d/terminal_sudoers
 sudo chmod 440 /etc/sudoers.d/terminal_sudoers
 ```
