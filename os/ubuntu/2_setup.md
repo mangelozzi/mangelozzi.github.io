@@ -1,5 +1,32 @@
 # SETUP
 
+## DROPBOX
+
+- Install Dropbox so can install Cryptomator
+- Download `.deb` file here: <https://www.dropbox.com/install>
+- Right click on file and say open with software center, or `sudo dpkg -i file.deb`
+
+## CRYPTOMATOR FILES
+
+- Install Cryptomator:
+    ```
+    sudo add-apt-repository ppa:sebastian-stenzel/cryptomator
+    sudo apt update
+    sudo apt install -y cryptomator
+    ```
+- Add the `Shared` -> `Secure` -> `Mighty_Secure` vault.
+
+## SSH
+
+1. Copy files from from:
+    - SRC: Cryptomator -> `Mighty_Secure` -> `Michael` -> `linux_setup` -> `ssh`
+    - OUT: `~/.ssh/`
+2. `sudo chown -R $USER:$USER ~/.ssh`
+3. `sudo chmod -R 700 ~/.ssh`
+4. `eval $(ssh-agent)`
+5. `ssh-add ~/.ssh/github_dev`
+
+
 ## BASE APPS
 
 - Require `GIT` and `CURL`
@@ -8,37 +35,15 @@
 sudo apt install -y git curl
 ```
 
-## GET GIT SSH
-
-1. Copy from:
-    - SRC: Cryptomator -> `Mighty_Secure` -> Michael -> SSH -> Github -> `github_dev` (remove the password hint suffix)
-    - OUT: `~/.ssh/github_dev`
-2. `sudo chown 700 ~/.ssh/github_dev`
-3. `eval $(ssh-agent)`
-4. `ssh-add ~/.ssh/github_dev`
-
-## GET ALL SSH (includes above `github_dev`)
-
-1. Copy from dir Cryptomator -> `NanoCube_Secure` -> `LinkCube` -> `SSH` -> `michael.home.ssh`
-2. to `~/.ssh`
-
 ## INSTALL DOT FILES
 
-- From `https://github.com/mangelozzi/dotfiles`:
+From `https://github.com/mangelozzi/dotfiles`:
 
 ```
 curl https://raw.githubusercontent.com/mangelozzi/dotfiles/master/.config/install/_install_config.sh | bash
 ```
 
-## Config (dot files)
-
-- [First setup config files](https://github.com/michael-angelozzi/.config)
-
 ## Config - Run installer scripts
 
+- Info here: [First setup config files](https://github.com/michael-angelozzi/.config)
 - `bash ~/.config/install/_all.sh`
-
-## WORK APPS
-
-- `Insync`
-    - Install `Insync` for Google Drive

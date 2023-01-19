@@ -13,12 +13,23 @@
 ## INSTALLATION PREP
 
 1. Download a desktop Ubuntu ISO image
-2. Use `Rufus` to add it onto a boot flash stick.
-3. Restart, press `F2` to enter BIOS settings
-4. Disable `Secure boot`
-5. **Enable** boot from USB boot under `USB settings`
-6. Save and exit
-7. Press `F12` to enter boot menu selection, and select USB disk
+
+## MAKE USB BOOT TOOL
+
+- Linux:
+    ```
+    sudo apt install usb-creator-gtk
+    usb-creator-gtk
+    ```
+- Windows: Use `Rufus` to add it onto a boot flash stick.
+
+## BOOT FROM USB
+
+1. Restart, press `F2` to enter BIOS settings
+2. Disable `Secure boot`
+3. **Enable** boot from USB boot under `USB settings`
+4. Save and exit
+5. Press `F12` to enter boot menu selection, and select USB disk
 
 ## INSTALLATION
 
