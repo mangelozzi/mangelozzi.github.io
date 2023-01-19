@@ -45,3 +45,7 @@ If you go to say `Profile 1/` and look at `Google Profile Picture.png` to determ
 which profile is which.
 
 Can start a given profile with `chrome --profile-directory="Profile 2" path/to/file.html`
+
+## FIXES
+
+- `chrome://flags/#overlay-scrollbars` and disable overlay scrollbars
