@@ -29,3 +29,17 @@
 2. `sudo nvim /etc/default/grub`
 3. Set `GRUB_DEFAULT=2` to the required number, e.g. if it is say the third position (0-indexed)
 4. `sudo update-grub`
+
+
+## Graphics Card
+
+sudo apt-get install nvidia-driver-515
+
+## Disable power saving sound card
+
+- Sound card hums when power saving mode on (quite for about 10seconds)
+
+```bash
+sudo su -
+echo 0 > /sys/module/snd_hda_intel/parameters/power_save
+```
