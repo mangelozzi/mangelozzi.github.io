@@ -45,7 +45,21 @@ From `https://github.com/mangelozzi/dotfiles`:
 curl https://raw.githubusercontent.com/mangelozzi/dotfiles/master/.config/install/_install_config.sh | bash
 ```
 
-## Config - Run installer scripts
+## CONFIG - RUN INSTALLER SCRIPTS
 
 - Info here: [First setup config files](https://github.com/michael-angelozzi/.config)
 - `bash ~/.config/install/_all.sh`
+
+## LOWER INCORRECT PASSWORD DELAY
+
+- Change the delay from 3s to 0.5seconds:
+
+1. `sudoedit /etc/pam.d/login`
+2. Find the line:
+    ```
+    auth       optional   pam_faildelay.so  delay=3000000
+    ```
+3. Decrease the delay (value is in micro seconds):
+    ```
+    auth       optional   pam_faildelay.so  delay=500000
+    ```

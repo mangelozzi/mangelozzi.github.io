@@ -39,7 +39,18 @@ sudo apt-get install nvidia-driver-515
 
 - Sound card hums when power saving mode on (quite for about 10seconds)
 
-```bash
-sudo su -
-echo 0 > /sys/module/snd_hda_intel/parameters/power_save
-```
+<del>
+- This is only temporary:
+    ```bash
+    sudo su -
+    echo 0 > /sys/module/snd_hda_intel/parameters/power_save
+    ```
+</del>
+
+- Permanent fix:
+
+1. `sudo nvim /etc/modprobe.d/alsa-base.conf`
+2. Append this line to the end of the file, save and reboot
+    ```
+    options snd-hda-intel power_save=0 power_save_controller=N
+    ```
