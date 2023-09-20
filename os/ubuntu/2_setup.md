@@ -52,6 +52,8 @@ curl https://raw.githubusercontent.com/mangelozzi/dotfiles/master/.config/instal
 
 ## LOWER INCORRECT PASSWORD DELAY
 
+<del>
+- This does not work!!!
 - Change the delay from 3s to 0.5seconds:
 
 1. `sudoedit /etc/pam.d/login`
@@ -62,4 +64,16 @@ curl https://raw.githubusercontent.com/mangelozzi/dotfiles/master/.config/instal
 3. Decrease the delay (value is in micro seconds):
     ```
     auth       optional   pam_faildelay.so  delay=500000
+    ```
+</del>
+- Remove the retry delay:
+
+1. `sudoedit /etc/pam.d/common-auth`
+2. Find the line:
+    ```
+    auth    [success=2 default=ignore]      pam_unix.so nullok
+    ```
+3. Decrease the delay (value is in micro seconds):
+    ```
+    auth    [success=2 default=ignore]      pam_unix.so nullok nodelay
     ```
