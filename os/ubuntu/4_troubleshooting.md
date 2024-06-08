@@ -31,10 +31,6 @@
 4. `sudo update-grub`
 
 
-## Graphics Card
-
-sudo apt-get install nvidia-driver-515
-
 ## Disable power saving sound card
 
 - Sound card hums when power saving mode on (quite for about 10seconds)

@@ -1,5 +1,12 @@
 # FreeCAD Setup
 
+## START
+
+Make the UI decent size (create an alias for this):
+```
+freebad="QT_FONT_DPI=96 ~/appimages/freecad-0.21.1.AppImage &"
+```
+
 ## ADDONS
 
 1. `Tools` -> `Addon Manager`
