@@ -16,3 +16,14 @@ User Microsoft Power Toys -> `Keyboard Manager` -> `Enabled Keyboard Manager` ->
 - Remap Escape -> Capslock
 - CapsLock -> WinL
 - WinL -> Escape
+
+
+- To get ping command working:
+    - `setcap 'cap_net_raw+p' /bin/ping`
+- To get network working:
+    - `sudo nvim /etc/hosts`
+    - And add these 2 lines:
+        ```
+        192.168.16.218  buildserver
+        192.168.16.37   ioecsrvsqldev
+        ```
