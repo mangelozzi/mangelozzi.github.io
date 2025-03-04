@@ -16,6 +16,7 @@
 - [Cooking](cooking/index.md)
 - [Home Remedies](misc/home_remedies.md)
 - [Medical](misc/medical.md)
+- [Home Affairs](misc/home_affairs.md)
 
 ## Guitar
 
@@ -25,4 +26,3 @@
 ## Exercise
 
 - [10min Stretching](exercise/10min_stretch.md)
-
